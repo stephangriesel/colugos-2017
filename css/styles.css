@@ -1,0 +1,279 @@
+/* Header */
+
+body, html {
+	height: 100%;
+	margin: 0;
+	font-family: 'Lato';
+	color: #777;
+}
+
+header {
+}
+
+.logo {
+	text-align:center;
+} 
+
+nav {
+	float:left;
+	text-transform:uppercase;
+}
+
+nav a:hover {
+	border-top:3px solid #097845;
+	padding-top:1em;
+}
+	
+nav ul {
+	padding:0;
+}
+
+nav ul li{
+	display:inline;
+	list-style:none;
+}
+
+nav li {
+	padding-right:1em;
+}
+
+nav ul {
+	margin:0;
+	padding-top:3em; 
+}
+
+
+a:link {
+    color: #777;
+    font-size:1em;
+    text-decoration:none;
+    border-top:none;
+}
+
+a:visited {
+    color: #777;
+}
+
+a:hover {
+    color: #000;
+}
+
+a:active {
+    color: #000;
+}
+
+.full ul li{
+	list-style: none;
+	text-align: center;
+	text-decoration: none;
+	width: 100%;
+
+}
+
+/* Content */
+
+.about h1 {
+	text-align:center;
+	text-transform:uppercase;
+} 
+
+.about {
+	height:300px;
+	width:100%;
+}
+
+.half {
+}
+
+.choices h1 {
+	text-align:center;
+	text-transform:uppercase;
+}
+
+.choices {
+}
+
+.third {
+}
+
+.third img {
+	display: block;
+	margin-left: auto;
+ 	margin-right: auto;
+}
+
+.aboutagain h1 {
+	text-align:center;
+	text-transform:uppercase;
+}
+
+.aboutagain {
+}
+
+.contact h1 {
+	text-align:center;
+	text-transform:uppercase;
+}
+
+.contact {
+	height:250px;
+}
+
+.half h4 {
+	text-align:center;
+}
+
+.contact .half ul li {
+	list-style:none;
+	text-align:center;
+	
+}
+
+/* Background images */
+
+.bgimg1, .bgimg2, .bgimg3, .bgimg4, .bgimg5, .bgimg6, .bgimg7 {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+
+}
+
+.bgimg1 {
+  background-image: url("../img/14.jpeg");
+  min-height: 700px;
+  padding-top:3em;
+}
+
+.bgimg2 {
+  background-image: url("../img/9.jpeg");
+  min-height: 700px;
+}
+
+.bgimg3 {
+  background-image: url("../img/10.jpeg");
+  min-height: 700px;
+}
+
+.bgimg4 {
+  background-image: url("../img/11.jpeg");
+  min-height: 700px;
+}
+
+.bgimg5 {
+  background-image: url("../img/12.jpeg");
+  min-height: 700px;
+}
+
+.bgimg6 {
+  background-image: url("../img/13.jpeg");
+  min-height: 700px;
+}
+
+.bgimg7 {
+  background-image: url("../img/14.jpeg");
+  min-height: 700px;
+}
+
+footer h1 {
+	text-align:center;
+}
+
+/* Media Queries */
+
+@media (min-width:1423px) {
+/* Header */
+
+
+header {
+	background-color:#FFFFFF;
+	margin:0;
+	opacity:0.90;
+	position:fixed;
+	width:100%;
+	z-index:1;
+}
+
+.logo {
+	float:left;
+	width:50%;
+	clear:both;
+}
+
+.logo img {
+
+	padding:2em 0 2em 1em;
+	width:10em;
+}
+
+/* Content */
+
+.about h1 {
+	text-align:center;
+	text-transform:uppercase;
+}
+
+.about {
+	height:230px;
+	width:100%;
+	
+}
+
+.half {
+	float:left;
+	padding:0 2em 0 2em;
+	width:45%;
+}
+
+.choices h1 {
+	text-align:center;
+	text-transform:uppercase;
+}
+
+.choices {
+	height:410px;
+}
+
+.third {
+	float:left;
+	width:28%;
+}
+
+.third img {
+	display: block;
+	margin-left: auto;
+ 	margin-right: auto;
+}
+
+.aboutagain h1 {
+	text-align:center;
+	text-transform:uppercase;
+}
+
+.aboutagain {
+	height:320px;
+}
+
+.contact h1 {
+	text-align:center;
+	text-transform:uppercase;
+}
+
+.contact {
+	height:250px;
+}
+
+.half h4 {
+	text-align:center;
+}
+
+.contact .half ul li {
+	list-style:none;
+	text-align:center;
+	
+}
+
+footer h1 {
+	text-align:center;
+}

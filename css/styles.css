@@ -288,31 +288,26 @@ header {
 .bgimg1 {
   background-image: url("../img/14.jpeg");
   min-height: 700px;
-  width:100%;
   padding-top:3em;
 }
 
 .bgimg2 {
   background-image: url("../img/9.jpeg");
-  width:100%;
   min-height: 700px;
 }
 
 .bgimg3 {
   background-image: url("../img/10.jpeg");
-  width:100%;
   min-height: 700px;
 }
 
 .bgimg4 {
   background-image: url("../img/11.jpeg");
-  width:100%;
   min-height: 700px;
 }
 
 .bgimg5 {
   background-image: url("../img/12.jpeg");
-  width:100%;
   min-height: 700px;
 }
 
@@ -324,7 +319,6 @@ header {
 
 .bgimg7 {
   background-image: url("../img/14.jpeg");
-  width:100%;
   min-height: 700px;
 }
 

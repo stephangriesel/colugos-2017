@@ -1,7 +1,6 @@
 /* Header */
 
 body, html {
-	background-color: #000000;
 	height: 100%;
 	margin: 0;
 	font-family: 'Lato';
@@ -185,10 +184,6 @@ footer h1 {
 
 @media (min-width:1423px) {
 /* Header */
-
-body {
-	background-color: #097845;
-}
 
 header {
 	background-color:#FFFFFF;

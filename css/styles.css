@@ -195,6 +195,7 @@ header {
 }
 
 .logo {
+	background-color: #000;
 	float:left;
 	width:50%;
 	clear:both;

@@ -277,11 +277,11 @@ header {
 /* Background images */
 
 .bgimg1, .bgimg2, .bgimg3, .bgimg4, .bgimg5, .bgimg6, .bgimg7 {
-  position: fixed;
+  position: relative;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover; 
+  background-size: contain; 
 
 }
 
@@ -318,7 +318,7 @@ header {
 
 .bgimg6 {
   background-image: url("../img/13.jpeg");
-  width:100%;
+  width:'100%'
   min-height: 700px;
 }
 

@@ -288,37 +288,43 @@ header {
 .bgimg1 {
   background-image: url("../img/14.jpeg");
   min-height: 700px;
+  min-width:100%;
   padding-top:3em;
 }
 
 .bgimg2 {
   background-image: url("../img/9.jpeg");
   min-height: 700px;
+  min-width:100%;
 }
 
 .bgimg3 {
   background-image: url("../img/10.jpeg");
   min-height: 700px;
+  min-width:100%;
 }
 
 .bgimg4 {
   background-image: url("../img/11.jpeg");
   min-height: 700px;
+  min-width:100%;
 }
 
 .bgimg5 {
   background-image: url("../img/12.jpeg");
   min-height: 700px;
+  min-width:100%;
 }
 
 .bgimg6 {
   background-image: url("../img/13.jpeg");
-  width:'100%'
+  min-width:100%;
   min-height: 700px;
 }
 
 .bgimg7 {
   background-image: url("../img/14.jpeg");
+  min-width:100%;
   min-height: 700px;
 }
 
